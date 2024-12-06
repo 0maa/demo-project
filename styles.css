@@ -1,19 +1,25 @@
 body{ 
-    background-color: rgb(198, 198, 201);
     display: flex;
     align-items: center;
     justify-content: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 50px;
     padding: 30 10 0 10;
 }
 .image{
     background: white;
+    /* /* display: block; */
+    margin-left: 10px;
+    margin-right: 10px; 
+    /* width: 50%; */
+    background-size: contain;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+     justify-content: center; 
     align-items: center;
-    padding: 20px;
+    background-position: center;
+    /* padding: 20px; *
+    max-width: 100%;
+    margin: 20px;
 } 
 .bold{
     font-weight: bold;
@@ -22,13 +28,14 @@ body{
 }
 
 figcaption{
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 h3{
    display: flex;
    justify-content: center;
-   padding: 10px 0;
+   padding: 25px 0;
    margin: 10px o
 }
 ul{
@@ -58,12 +65,31 @@ ul{
     font-style: italic;
 }
 .head{
-    text-align:center
+    text-align:center;
+    margin-top: 20px;
 }
 h1{
     font-size: 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
-.body{
-    margin: 20px;
+main{
+    margin: 20px 3px;
+    background-color: rgb(227, 227, 230);
+    border-radius: 3px;
     /* background-color: aliceblue; */
+
+}
+.writer{
+    text-align: center;
+    padding-top: 100px;
+}
+.note{
+    text-align: center;
+    font-size: larger;
+}
+.link{
+    color: rgb(4, 33, 71);
+    font-weight: bolder;
 }
